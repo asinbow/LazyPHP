@@ -62,10 +62,12 @@ function render( $data = NULL , $layout = NULL , $sharp = 'default' )
 		{
 			$layout = 'ajax';
 		}
+        /* removed by HAO
 		elseif( is_mobile_request() )
 		{
 			$layout = 'mobile';
 		}
+         */
 		else
 		{
 			$layout = 'web';
